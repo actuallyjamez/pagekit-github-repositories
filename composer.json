@@ -1,0 +1,14 @@
+{
+    "name": "actuallyjamez/github-user-repos",
+    "version": "0.0.1",
+    "type": "pagekit-extension",
+    "title": "Github User Repositories",
+    "description": "Lists all public GitHub repositories of a specified user.",
+    "license": ["MIT"],
+    "authors": [{
+      "name": "actuallyjamez",
+      "email":  "actuallyjamez@gmail.com",
+      "homepage": "https://actiallyjamez.me"
+      }],
+      "extra": {"icon": "icon.svg"}
+}
