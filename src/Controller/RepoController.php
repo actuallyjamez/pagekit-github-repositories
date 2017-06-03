@@ -13,7 +13,8 @@ class RepoController
           'title' => 'Repositories',
           'name' => 'repo:/views/index.php'
         ],
-        'message' => 'github Repositories','config' => $config['ghconfig'],
+        'message' => 'github Repositories',
+        'config' => $config['ghconfig'],
       ];
     }
 
@@ -31,9 +32,6 @@ class RepoController
           'name' => 'repo:/views/admin/index.php'
         ],
         '$data' => $config,
-        'message' => 'github Repositories',
-        'ghusername' => $config['ghusername'],
-        'ghauthtoken' => $config['ghauthtoken']
       ];
     }
 

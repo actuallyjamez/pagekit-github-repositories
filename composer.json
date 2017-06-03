@@ -1,6 +1,6 @@
 {
     "name": "actuallyjamez/github-user-repos",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "type": "pagekit-extension",
     "title": "Github User Repositories",
     "description": "Lists all public GitHub repositories of a specified user.",
