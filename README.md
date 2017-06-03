@@ -4,7 +4,7 @@ A simple pagekit extension that lists all public repositories of a specified Git
 To get started, install the extention from the pagekit marketplace and activete.
 
 Go to menu > repositories and enter your GitHub username and authtoken (https://github.com/settings/tokens).
-(
+
 
 If required you can enter pretext in the settings page too.
 
