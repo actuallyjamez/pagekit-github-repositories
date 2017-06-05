@@ -1,12 +1,6 @@
-<!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
+<?php $view->style('uistyle', 'repo:css/uikit.min.css') ?>
+<?php $view->script('uikitjs', 'repo:js/uikit/uikit.min.js', 'jquery')?>
 
-<!-- jQuery is required -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- UIkit JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit-icons.min.js"></script>
 
 <div class="uk-width-medium-3-4 uk-container-center">
 
