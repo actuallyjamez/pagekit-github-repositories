@@ -8,6 +8,6 @@ Go to menu > repositories and enter your GitHub username and authtoken (https://
 
 If required you can enter pretext in the settings page too.
 
-Once configered, go to `yourdomain/repositories`.
+Once configered, go to `yourdomain.com/repositories/`.
 
 If you revieve an error message, the plugin might not be configered correctly. Double check your username and auth token.
