@@ -1,14 +1,8 @@
-<?php $view->style('uistyle', 'repo:css/uikit.min.css') ?>
-<?php $view->script('uikitjs', 'repo:js/uikit/uikit.min.js', 'jquery')?>
-
-
 <div class="uk-width-medium-3-4 uk-container-center">
-
     <h3 class="uk-h2 uk-text-center"><?= $config['pageheadder'] ?></h3>
-
     <h4 class="uk-width-medium-4-6 uk-container-center uk-text-center"><?= $config['subtext'] ?></h4>
-
 </div>
+
 <br>
 <?php
   $api = 'https://api.github.com/users/' . $config['ghusername'] . '/repos';
