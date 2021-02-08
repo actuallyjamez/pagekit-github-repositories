@@ -17,12 +17,11 @@
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
 <?php
  foreach ($output as $repo): ?>
-<a href=<?= $repo->html_url ?> target=_blank style="text-decoration: none;">
-  <div>
-    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
-        <h3 class="uk-card-title"> <?= $repo->name ?></h3>
-        <p><?= $repo->description ?></p>
-    </div>
-  </div>
-</a>
+    <a href=<?= $repo->html_url ?> target=_blank style="text-decoration: none;">
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title"> <?= $repo->name ?></h3>
+            <p><?= $repo->description ?></p>
+        </div>
+    </a>
 <?php endforeach;?>
+</div>
