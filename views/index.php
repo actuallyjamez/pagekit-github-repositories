@@ -1,14 +1,8 @@
-<?php $view->style('uistyle', 'repo:css/uikit.min.css') ?>
-<?php $view->script('uikitjs', 'repo:js/uikit/uikit.min.js', 'jquery')?>
-
-
 <div class="uk-width-medium-3-4 uk-container-center">
-
     <h3 class="uk-h2 uk-text-center"><?= $config['pageheadder'] ?></h3>
-
     <h4 class="uk-width-medium-4-6 uk-container-center uk-text-center"><?= $config['subtext'] ?></h4>
-
 </div>
+
 <br>
 <?php
   $api = 'https://api.github.com/users/' . $config['ghusername'] . '/repos';
@@ -23,12 +17,11 @@
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
 <?php
  foreach ($output as $repo): ?>
-<a href=<?= $repo->html_url ?> target=_blank style="text-decoration: none;">
-  <div>
-    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
-        <h3 class="uk-card-title"> <?= $repo->name ?></h3>
-        <p><?= $repo->description ?></p>
-    </div>
-  </div>
-</a>
+    <a href=<?= $repo->html_url ?> target=_blank style="text-decoration: none;">
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title"> <?= $repo->name ?></h3>
+            <p><?= $repo->description ?></p>
+        </div>
+    </a>
 <?php endforeach;?>
+</div>
